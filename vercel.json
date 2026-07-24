@@ -1,24 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/projeto-pead-7f42k9",
-      "destination": "https://flaviolamounierpead.vercel.app/projeto-pead-7f42k9"
-    },
-    {
-      "source": "/projeto-pead-7f42k9/:path*",
-      "destination": "https://flaviolamounierpead.vercel.app/projeto-pead-7f42k9/:path*"
-    },
-    {
-      "source": "/projeto-valvulas-v8m31x",
-      "destination": "https://flaviolamouniervalvulas.vercel.app/projeto-valvulas-v8m31x"
-    },
-    {
-      "source": "/projeto-valvulas-v8m31x/:path*",
-      "destination": "https://flaviolamouniervalvulas.vercel.app/projeto-valvulas-v8m31x/:path*"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
